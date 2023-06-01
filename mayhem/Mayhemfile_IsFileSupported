@@ -1,0 +1,5 @@
+project: libnyquist
+target: isfilesupported
+cmds:
+  - cmd: /fuzz_IsFileSupported
+    libfuzzer: true
